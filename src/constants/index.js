@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 
 export const RPC_BSC= "https=//bsc-dataseed.binance.org/";
 export const PANCAKE_SWAP_ROUTER_ADDRESS= "0x10ED43C718714eb63d5aA57B78B54704E256024E";

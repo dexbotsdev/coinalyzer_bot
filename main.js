@@ -46,9 +46,7 @@ bot.onText(/\/info (.+)/, function (msg, match) {
             <b>Created At:</b> ${data.pairCreatedAt}
             <b>HoneyPot Check:</b> ${data.isHoneyPot}
             <b>Blacklist Check:</b> ${data.blacklisted}
-            <b>Source code Verified:</b> ${data.verified}
-            <b>Buy Gas:</b> ${data.buygas}
-            <b>Sell Gas:</b> ${data.sellgas}
+            <b>Source code Verified:</b> ${data.verified} 
             <b>Buy Tax:</b> ${data.buyTax}%
             <b>Sell Tax:</b> ${data.sellTax}%`
             bot.sendMessage(chatId,msg,{parse_mode : "HTML"});
